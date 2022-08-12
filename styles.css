@@ -66,6 +66,9 @@ body{
   padding-top: 8px;
   color: rgb(209, 221, 248);
   margin-bottom: 50px;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 .date{
@@ -87,17 +90,21 @@ ul > li{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 ul{
-  border-bottom: 5px solid rgb(209, 221, 248);
   margin-left: 220px;
   margin-right: 220px;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
 
 #lastp{
   text-align: center;
   padding-bottom: 40px;
   color: white;
+  
 }
 
 #lastp > a:hover{
